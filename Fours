@@ -1,0 +1,27 @@
+public static void Fours(int dice1, int dice2, int dice3, int dice4, int dice5)
+    {
+        int a=0;
+
+        if(dice1 == 4){
+            a += 4;
+        }
+
+        if(dice2 == 4) {
+            a += 4;
+        }
+
+        if(dice3 == 4){
+            a += 4;
+        }
+
+        if(dice4 == 4){
+            a += 4;
+        }
+
+        if(dice5 == 4){
+            a += 4;
+        }
+
+        System.out.println("Fours         "+a);
+
+    }
